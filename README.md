@@ -1,6 +1,6 @@
 # Programming for Data Science Lab (MACSE502) – Scala
 
-ABHISHEK P · 26MML0019 · VIT Vellore, Fall 2026
+Arjun Ajit · 26MML0061 · VIT Vellore, Fall 2026
 
 ## Assessment 9 – Weeks 9 to 12
 
