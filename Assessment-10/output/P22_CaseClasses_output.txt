@@ -1,0 +1,30 @@
+All people:
+  Person(Arun,28,Chennai)
+  Person(Divya,34,Vellore)
+  Person(Karthik,22,Chennai)
+  Person(Meena,41,Bengaluru)
+  Person(Rahul,30,Vellore)
+
+After filtering out people older than 30:
+  Person(Arun,28,Chennai)
+  Person(Karthik,22,Chennai)
+  Person(Rahul,30,Vellore)
+
+People grouped by city:
+  Bengaluru -> Meena
+  Chennai -> Arun, Karthik
+  Vellore -> Divya, Rahul
+
+Descriptions:
+  Arun is 28 years old and lives in Chennai
+  Divya is 34 years old and lives in Vellore
+  Karthik is 22 years old and lives in Chennai
+  Meena is 41 years old and lives in Bengaluru
+  Rahul is 30 years old and lives in Vellore
+
+Sorted by age (ascending):
+  Person(Karthik,22,Chennai)
+  Person(Arun,28,Chennai)
+  Person(Rahul,30,Vellore)
+  Person(Divya,34,Vellore)
+  Person(Meena,41,Bengaluru)

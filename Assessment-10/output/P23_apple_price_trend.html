@@ -1,0 +1,65 @@
+<html>
+  <head>
+    <script src="https://cdn.jsdelivr.net/webjars/org.webjars.bower/d3/3.5.17/d3.min.js" charset="utf-8"></script>
+<script src="https://cdn.jsdelivr.net/webjars/org.webjars.bower/vega/2.6.3/vega.min.js" charset="utf-8"></script>
+<script src="https://cdn.jsdelivr.net/webjars/org.webjars.bower/vega-lite/1.2.0/vega-lite.min.js" charset="utf-8"></script>
+<script src="https://vega.github.io/vega-editor/vendor/vega-embed.js" charset="utf-8"></script>
+  </head>
+  <body>
+ <div id='vegas-8d529d75-6753-4cfd-b2bb-6acc8d97d929'></div>
+ <script>
+   var embedSpec = {
+     mode: "vega-lite",
+     spec: {
+  "width" : 600.0,
+  "height" : 320.0,
+  "mark" : "line",
+  "encoding" : {
+    "x" : {
+      "field" : "Date",
+      "type" : "ordinal"
+    },
+    "y" : {
+      "scale" : {
+        "zero" : false
+      },
+      "field" : "Price",
+      "type" : "quantitative"
+    }
+  },
+  "description" : "Apple Price Trend Over Time",
+  "data" : {
+    "values" : [
+      {
+        "Date" : "2026-10-01",
+        "Price" : 120.5
+      },
+      {
+        "Date" : "2026-10-02",
+        "Price" : 122.0
+      },
+      {
+        "Date" : "2026-10-03",
+        "Price" : 125.75
+      },
+      {
+        "Date" : "2026-10-04",
+        "Price" : 119.25
+      },
+      {
+        "Date" : "2026-10-05",
+        "Price" : 127.0
+      },
+      {
+        "Date" : "2026-10-06",
+        "Price" : 130.5
+      }
+    ]
+  }
+}
+   }
+   vg.embed("#vegas-8d529d75-6753-4cfd-b2bb-6acc8d97d929", embedSpec, function(error, result) {});
+ </script>
+
+    </body>
+</html>

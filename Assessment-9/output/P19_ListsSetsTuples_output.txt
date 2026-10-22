@@ -1,0 +1,11 @@
+List of first five primes : List(2, 3, 5, 7, 11)
+Squared list              : List(4, 9, 25, 49, 121)
+
+Unique characters of "hello world" : {d, e, h, l, o, r, w}
+Second set from "scala world"      : {a, c, d, l, o, r, s, w}
+Intersection of the two sets       : {d, l, o, r, w}
+
+Tuple : (26,Scala,true)
+First element  (Int)     : 26
+Second element (String)  : Scala
+Third element  (Boolean) : true

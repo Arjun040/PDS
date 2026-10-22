@@ -1,0 +1,29 @@
+Initial HashMap:
+  Arun -> 78
+  Divya -> 85
+  Karthik -> 69
+  Meena -> 92
+
+Inserting duplicate key: Arun -> 88
+HashMap after duplicate insert (old value overwritten):
+  Arun -> 88
+  Divya -> 85
+  Karthik -> 69
+  Meena -> 92
+
+Second HashMap:
+  Divya -> 80
+  Karthik -> 75
+  Rahul -> 81
+
+Merged HashMap (higher grade kept):
+  Arun -> 88
+  Divya -> 85
+  Karthik -> 75
+  Meena -> 92
+  Rahul -> 81
+
+HashMap with chaining (all grades kept per key):
+  Arun -> List(78, 88)
+  Divya -> List(85, 80)
+  Karthik -> List(69, 75)

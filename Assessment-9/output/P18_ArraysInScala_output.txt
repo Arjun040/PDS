@@ -1,0 +1,12 @@
+Integer Array : [2, 5, 9, 14, 20]
+Sum of the elements : 50
+
+Fruit Array : [Apple, Banana, Mango, Orange, Grapes]
+Concatenated Fruits : Apple, Banana, Mango, Orange, Grapes
+
+Elements of the Integer Array:
+Element at index 0 = 2
+Element at index 1 = 5
+Element at index 2 = 9
+Element at index 3 = 14
+Element at index 4 = 20
